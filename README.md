@@ -1,5 +1,6 @@
 # place_greeter
-some scripts which could be configured to greet new avis on a place or resend messages after a specified time
+<br>
+Some scripts which could be configured to greet new avis on a place or resend messages after a specified time
 <br>
 Functional description:<br>
 When a new agent arrivs at a place first a dialog message pop's up.<br>
