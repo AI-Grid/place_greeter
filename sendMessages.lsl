@@ -15,20 +15,21 @@ integer showDLG    = FALSE; //if not activated, no message dialog will be shown
 integer DLGChannel = 0;
 integer DLGHandle  = 0;
 
-key testUUID1 = "3947643a-63dc-40e4-84ec-5cf213771618"; //M
-key testUUID2 = "b3c3ea7e-76fa-4ec7-8b72-d28b0fd1c2c8"; //A
-key testUUID3 = "1582932f-3f48-4cd5-8af9-6629019f20f1"; //C
+key testUUID1 = "3947643a-63dc-40e4-84ec-5cf213771618"; //Marty
+key testUUID2 = "b3c3ea7e-76fa-4ec7-8b72-d28b0fd1c2c8"; //Annita
+key testUUID3 = "1582932f-3f48-4cd5-8af9-6629019f20f1"; //claeng
 
 //configurations 
 //should be later brought to nc
 integer sendOverIM = TRUE;
 
 // The UUID / Key of the scripted agent.
-string CORRADE = ""; //UUID;
+string CORRADE = ""; //"4e4c0d3f-e3e8-4e13-a002-b1e1e78a21fe";
 // The name of the group to invite to.
-string GROUP = ""; //UUID
+string GROUP = ""; //"2e40dcaf-3673-1f37-a2b6-05add2c2cc12";
+//string GROUP = "cbc820cb-5754-fb55-df7f-26dfa412216c"; Lilith group
 // The password for that group in Corrade.ini.
-string PASSWORD = ""; //Password
+string PASSWORD = ""; //"lili123456";
 
 //Message numbers:
 integer MESSAGE_NEW_HEADER          = 1000;

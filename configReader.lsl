@@ -252,8 +252,8 @@ default
     on_rez(integer start_param)
     {
         // Restarts all scripts when the object is rezzed
-        llResetOtherScript("scanner");
-        llResetOtherScript("sendMessages");
+        llResetOtherScript("scan_area");
+        llResetOtherScript("sendMessage");
         llResetScript(); 
     }
 }
