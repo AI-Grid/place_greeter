@@ -6,7 +6,7 @@ Functional description:<br>
 When a new agent arrivs at a place first a dialog message pop's up.<br>
 The information within this Dialog message could be configured in a NC with the name: Greetings_DLG<br>
 <br>
-To resend information or give further information after a specified time the script can send messages over a bot.<br>
+To resend information or give further information after a specified time the script could send them over bot or dialog.<br>
 The message which should be send could be confiugred in a NC with the name: Greetings<br>
 <br>
 The structure of the NC "Greetings" is:<br>
